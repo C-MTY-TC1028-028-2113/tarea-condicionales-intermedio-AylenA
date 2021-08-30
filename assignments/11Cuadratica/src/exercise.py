@@ -11,13 +11,13 @@ def main():
         raiz=-c/b
         print(raiz)
     else:
-        discrim=b**2-4*a*c
-        if (discrim)>0:
-            x1=(-b+math.sqrt(discrim))/(2*a)
-            x2=(-b-math.sqrt(discrim))/(2*a)
+        discriminante=b**2-4*a*c
+        if (discriminante)>0:
+            x1=(-b+math.sqrt(discriminante))/(2*a)
+            x2=(-b-math.sqrt(discriminante))/(2*a)
             print(x1)
             print(x2)
-        elif (discrim < 0):
+        elif (discriminante < 0):
             print("Raices complejas")
         else:
             x=-b/(2*a)
